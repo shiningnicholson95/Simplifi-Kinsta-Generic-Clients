@@ -122,7 +122,7 @@ window.McKoyComponents['site-header'] = function () {
 \
     <!-- Logo -->\
     <a href="/mckoyharris/" class="site-logo" aria-label="McKoy Harris Valuation — Home">\
-      <img src="/mckoyharris/images/logo-mckoy-harris-silver-horizontal.png" alt="McKoy Harris Valuation" width="851" height="285">\
+      <img src="/mckoyharris/images/logo-mckoy-harris-navy-horizontal-transparent.png" alt="McKoy Harris Valuation" width="786" height="157">\
     </a>\
 \
     <!-- Desktop Primary Navigation -->\
@@ -166,7 +166,7 @@ window.McKoyComponents['site-header'] = function () {
           </div>\
         </li>\
 \
-        <li><a href="/mckoyharris/#faq" class="nav-link">Pricing</a></li>\
+        <li><a href="/mckoyharris/pricing/" class="nav-link">Pricing</a></li>\
         <li><a href="/mckoyharris/#about" class="nav-link">About</a></li>\
         <li><a href="/mckoyharris/#reviews" class="nav-link">Reviews</a></li>\
       </ul>\
@@ -233,7 +233,7 @@ window.McKoyComponents['site-header'] = function () {
       </div>\
     </div>\
 \
-    <a href="/mckoyharris/#faq"  style="display:block;padding:0.875rem 1.5rem;font-family:var(--font-ui);font-size:1.0625rem;font-weight:500;color:rgba(255,255,255,0.8);border-left:3px solid transparent;text-decoration:none">Pricing</a>\
+    <a href="/mckoyharris/pricing/" style="display:block;padding:0.875rem 1.5rem;font-family:var(--font-ui);font-size:1.0625rem;font-weight:500;color:rgba(255,255,255,0.8);border-left:3px solid transparent;text-decoration:none">Pricing</a>\
     <a href="/mckoyharris/#about"    style="display:block;padding:0.875rem 1.5rem;font-family:var(--font-ui);font-size:1.0625rem;font-weight:500;color:rgba(255,255,255,0.8);border-left:3px solid transparent;text-decoration:none">About</a>\
     <a href="/mckoyharris/#reviews"  style="display:block;padding:0.875rem 1.5rem;font-family:var(--font-ui);font-size:1.0625rem;font-weight:500;color:rgba(255,255,255,0.8);border-left:3px solid transparent;text-decoration:none">Reviews</a>\
     <a href="/mckoyharris/#faq"     style="display:block;padding:0.875rem 1.5rem;font-family:var(--font-ui);font-size:1.0625rem;font-weight:500;color:rgba(255,255,255,0.8);border-left:3px solid transparent;text-decoration:none">FAQs</a>\

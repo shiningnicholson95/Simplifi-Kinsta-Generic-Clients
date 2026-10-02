@@ -7,7 +7,7 @@
 
    With custom values:
      <div data-component="stats-bar"
-          data-s1-num="500+" data-s1-label="Appraisals Completed"
+          data-s1-num="$450+" data-s1-label="Appraisals Starting At"
           data-s2-num="4"    data-s2-label="Counties Served"
           data-s3-num="4-day" data-s3-label="Rush Available"
           data-s4-num="5.0★" data-s4-label="Google Rating"></div>
@@ -20,8 +20,8 @@ window.McKoyComponents = window.McKoyComponents || {};
 window.McKoyComponents['stats-bar'] = function (config) {
   var stats = [
     {
-      num:   (config && config['s1-num'])   || '500<span style="font-size:1.5rem">+</span>',
-      label: (config && config['s1-label']) || 'Appraisals Completed'
+      num:   (config && config['s1-num'])   || '$450<span style="font-size:1.5rem">+</span>',
+      label: (config && config['s1-label']) || 'Appraisals Starting At'
     },
     {
       num:   (config && config['s2-num'])   || '4',

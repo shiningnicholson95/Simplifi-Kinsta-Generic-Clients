@@ -54,7 +54,7 @@ window.McKoyComponents['site-footer'] = function () {
         <a href="/mckoyharris/date-of-death-appraisal/">Date of Death</a>\
         <a href="/mckoyharris/bankruptcy-appraisal/">Bankruptcy</a>\
         <a href="/mckoyharris/foreclosure-appraisal/">Foreclosure &amp; REO</a>\
-        <a href="/mckoyharris/#faq" style="color:var(--accent-light);font-weight:600;margin-top:0.5rem">View Pricing →</a>\
+        <a href="/mckoyharris/pricing/" style="color:var(--accent-light);font-weight:600;margin-top:0.5rem">View Pricing →</a>\
       </nav>\
     </div>\
 \
@@ -107,7 +107,7 @@ window.McKoyComponents['site-footer'] = function () {
   <div class="footer-bottom">\
     <div class="container" style="display:flex;flex-direction:column;gap:0.75rem;align-items:center;text-align:center;width:100%">\
       <p class="footer-bottom__copy">\
-        &copy; ' + year + ' McKoy Harris Valuation LLC. All rights reserved.\
+        &copy; ' + year + ' McKoy Harris Ventures LLC dba McKoy Harris Valuation. All rights reserved.\
         &nbsp;&middot;&nbsp; PA Certified Residential Appraiser License #RL140441\
         &nbsp;&middot;&nbsp; USPAP Compliant\
       </p>\
