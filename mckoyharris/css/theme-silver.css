@@ -1,0 +1,49 @@
+/* ================================================
+   McKoy Harris Valuation — Silver theme (alternate)
+   Load AFTER style.css. Swaps the default gold accent
+   for the logo's metallic silver with cool neutrals.
+   Used by the client demo at /silver/.
+   ================================================ */
+
+:root {
+  /* Accent — slate blue on light backgrounds, silver on dark ones */
+  --accent:         #4A5F8F;
+  --accent-light:   #C9CFDA;
+  --accent-pale:    #E8ECF4;
+  /* Neutrals — cool greys to sit with navy + silver */
+  --off-white:      #F5F6F9;
+  --gray-50:        #EEF0F4;
+  --gray-100:       #E1E4EB;
+  --gray-200:       #C2C7D2;
+  --gray-400:       #868C9A;
+  --gray-600:       #4C5262;
+  --gray-900:       #161A26;
+  --shadow-cta:     0 4px 20px rgba(74,95,143,0.30);
+}
+
+/* On navy backgrounds the accent switches to brand silver */
+.section--navy, .section--dark, .hero, .cta-band, .site-footer,
+.mobile-nav, .mobile-cta-bar, .sidebar-card--navy {
+  --accent:       var(--silver);
+  --accent-light: var(--silver-light);
+}
+
+/* Primary CTA — metallic silver like the logo badge, navy text */
+.btn--accent {
+  background: var(--silver-gradient);
+  color: var(--navy);
+  border: 1px solid var(--silver-dark);
+  box-shadow: var(--shadow-sm), inset 0 1px 0 rgba(255,255,255,0.7);
+}
+.btn--accent:hover {
+  background: var(--silver-light);
+  color: var(--navy);
+  border-color: var(--navy);
+}
+
+/* Sidebar phone CTA — silver with navy text */
+.sidebar-phone-cta { background: var(--silver-gradient); border: 1px solid var(--silver-dark); }
+.sidebar-phone-cta:hover { background: var(--silver-light); }
+.sidebar-phone-cta__icon { background: var(--navy); color: var(--silver-light); }
+.sidebar-phone-cta__label { color: var(--gray-600); }
+.sidebar-phone-cta__number { color: var(--navy); }
